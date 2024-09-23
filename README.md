@@ -12,7 +12,19 @@ The data provided by the stakeholders, consists of 5,863 x-rays. All divided int
 ![Screenshot 2024-09-23 124958](https://github.com/user-attachments/assets/3275e957-a3e4-4933-935e-c5dfdd54b769)
 ## Modeling
 ### Model 1: Baseline Model/ Densely Connected Neural Network
+Build a baseline densely connected network with two hidden layers and an output layer. The first two layers have ReLU activation, which introduces non-linearity to the model. The final layer uses a sigmoid activation function, which produces a probability output between 0 and 1 for binary classification.
+
+
 ![Screenshot 2024-09-23 143215](https://github.com/user-attachments/assets/452fc4d2-0e7f-4d8e-90e2-5a97011c16e1)
 ![Screenshot 2024-09-23 143230](https://github.com/user-attachments/assets/8598d07d-694d-478d-9130-5715e98e1c6b)
 
 The first model had a validation accuracy of 62 percent and a training accuracy of 87 percent. One can infer that this densely connected neural network has a poor performance due to the poor validation score; validation loss of 1.04. The training loss and validation loss have a large gap between thhem of approximately 0.76. Another sign of overfitting is that the curves diverge in different directions.
+### Model 2: Convolutional Neural Network
+
+The second model being built is a convolutional neural network (cnn) model. The model will have two convolutional layers to extract feautures from the images, followed by max pooling layers, and a final fully connected layer to perform the classification.
+
+
+![Screenshot 2024-09-23 145340](https://github.com/user-attachments/assets/bb9c3020-9b63-45ef-855f-3414f1d5b2f6)
+![Screenshot 2024-09-23 145356](https://github.com/user-attachments/assets/ab97d762-0f0d-4f02-914d-45f94c118ef0)
+
+The second model preformed much better than the first model. With a training loss of 0.16 and training accuracy of 0.93. As well as a validation loss of 0.29 and validation accuracy of 0.93. This model seems to have also delt with some of the overfitting. This can be seen through there being a small margin between the training loss and validation loss (approx. 0.13) and the curves are no longer diverging at the ends of the graph.
