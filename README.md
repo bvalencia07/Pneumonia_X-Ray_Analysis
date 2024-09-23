@@ -56,3 +56,6 @@ This analysis consisted of attempting to successfullfy build the most efficient 
 
 ## Structure
 -.gitignore
+- Pneumonia_X-Ray_Analysis
+- README.md
+- presentation.pdf
