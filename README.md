@@ -54,3 +54,5 @@ This analysis consisted of attempting to successfullfy build the most efficient 
 
 ![lungs](https://github.com/user-attachments/assets/abe7ece2-a519-42ea-b514-135450b83b42)
 
+## Structure
+-.gitignore
