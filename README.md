@@ -14,4 +14,5 @@ The data provided by the stakeholders, consists of 5,863 x-rays. All divided int
 ### Model 1: Baseline Model/ Densely Connected Neural Network
 ![Screenshot 2024-09-23 143215](https://github.com/user-attachments/assets/452fc4d2-0e7f-4d8e-90e2-5a97011c16e1)
 ![Screenshot 2024-09-23 143230](https://github.com/user-attachments/assets/8598d07d-694d-478d-9130-5715e98e1c6b)
+
 The first model had a validation accuracy of 62 percent and a training accuracy of 87 percent. One can infer that this densely connected neural network has a poor performance due to the poor validation score; validation loss of 1.04. The training loss and validation loss have a large gap between thhem of approximately 0.76. Another sign of overfitting is that the curves diverge in different directions.
